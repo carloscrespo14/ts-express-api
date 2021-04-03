@@ -1,0 +1,35 @@
+{
+  "name": "ts-express-api",
+  "version": "1.0.0",
+  "description": "typescript-express-api",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon src/index.ts --exec ts-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloscrespo14/ts-express-api.git"
+  },
+  "author": "carlos crespo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carloscrespo14/ts-express-api/issues"
+  },
+  "homepage": "https://github.com/carloscrespo14/ts-express-api#readme",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.11",
+    "@types/ip": "^1.1.0",
+    "@types/morgan": "^1.9.2",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "morgan": "^1.10.0"
+  }
+}
